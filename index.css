@@ -1,0 +1,189 @@
+.nav-bar{
+    height: 80px;
+    width: 100%;
+}
+li{
+    display: inline-block;
+    
+}
+ul{
+    float: right;
+    margin-right: 250px;
+}
+.logo{
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    size: 1px;
+}
+a{
+    display: flex;
+    padding: 10px;
+    text-decoration: solid;
+    font-size: 20px;
+    color: rgb(108, 105, 105);
+    
+}
+.signin{
+    color: rgb(25, 111, 177);
+    border-width: 1px;
+    border-radius: 20px;
+    /* background-color: blueviolet; */
+    border-color: rgb(25, 111, 177);
+    border-style: solid;
+    
+}
+.signin:hover{
+    background-color: rgb(216, 235, 229);
+}
+.joinnow{
+    border-radius: 20px;
+    color: black;
+}
+.joinnow:hover{
+    background-color: rgb(215, 212, 212);
+}
+a:hover{
+    color: black;
+    font-weight: 500;
+}
+.container1{
+    display: inline-block;
+    height: 700px;
+    width: 50%;
+}
+.welcome{
+    position: absolute;
+    height: 170px;
+    width: 600px;
+    left: 150px;
+}
+.para1{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    /* font-weight: 100; */
+    font-size: xxx-large;
+    color: rgb(168, 101, 101);
+
+}
+.container2{
+    display: inline-block;
+    height: 700px;
+    width: 519px;
+}
+.image{
+    height: 460px;
+    width: 640px;
+    background-image: url(linkedinimg2.jpeg);
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.table{
+    position: absolute;
+    height: 600px;
+    width: 300px;
+    left: 150px;
+    top: 300px;
+}
+.maillable{
+    color: rgb(99, 94, 94);
+}
+.passwordlable{
+    color: rgb(99, 94, 94);
+}
+.input{
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+    border-style: solid;
+    /* padding-top: 10px; */
+    margin-top: 10px;
+    text-indent: 10px;
+}
+.input:hover{
+    border-color: black;
+    border-style: solid;
+    
+}
+.forgotp{
+    position: absolute;
+    font-size: 16px;
+    color: rgb(25, 111, 177);
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 30px;
+}
+.forgotp:hover{
+    text-decoration: underline;
+}
+.button1{
+    position: absolute;
+    height: 45px;
+    width: 355px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: rgb(25, 111, 177);
+    top: 250px;
+    font-size: 17px;
+    color: white;
+}
+.button1:hover{
+    background-color: rgb(25, 84, 139);
+}
+.button2{
+    position: absolute;
+    height: 40px;
+    width: 355px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0.05px;
+    border-color: rgb(201, 196, 196);
+    background-color: white;
+    top: 350px;
+    font-size: 14px;
+    color: black;
+}
+.button2:hover{
+    border-color: black;
+}
+.button3{
+    position: absolute;
+    height: 40px;
+    width: 355px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    top: 400px;
+    font-size: 14px;
+    color: rgb(54, 50, 50);
+}
+.button3:hover{
+    background-color: aliceblue;
+    font-size: medium;
+}
+.or{
+    position: absolute;
+    color: rgb(92, 90, 90);
+    top: 300px;
+    left: 40px;
+}
+.google{
+    position: absolute;
+    height: 20px;
+    left: 85px;
+}
+
+/* @media (max-width: 768px) {
+    li{
+        display: ;
+    }
+} */
+
+/* @media screen (max-width: 480px) {
+    li{
+        display:
+    }
+} */
